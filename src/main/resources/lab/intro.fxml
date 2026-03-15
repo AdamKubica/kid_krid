@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab.IntroController" styleClass="intro-background">
+    <VBox alignment="CENTER" spacing="30">
+        <Label text="KID GRID" styleClass="game-title" />
+
+        <Label text="Select Difficulty:" styleClass="game-subtitle" />
+
+        <HBox alignment="CENTER" spacing="20">
+            <Button fx:id="btnEasy" text="EASY" onAction="#selectEasy" styleClass="start-button" />
+            <Button fx:id="btnMedium" text="MEDIUM" onAction="#selectMedium" styleClass="start-button" />
+            <Button fx:id="btnHard" text="HARD" onAction="#selectHard" styleClass="start-button" />
+        </HBox>
+
+        <Button text="LEVELS" onAction="#onLevels" styleClass="start-button" />
+    </VBox>
+</StackPane>

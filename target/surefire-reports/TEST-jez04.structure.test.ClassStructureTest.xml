@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="jez04.structure.test.ClassStructureTest" time="0.381" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\PC1\IdeaProjects\JAVA I\projekt\target\test-classes;C:\Users\PC1\.m2\repository\org\openjfx\javafx-controls\23\javafx-controls-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-graphics\23\javafx-graphics-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-base\23\javafx-base-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-fxml\23\javafx-fxml-23.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\PC1\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PC1\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\PC1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\PC1\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\PC1\.m2\repository\cz\vsb\fei\kelvin-java-unittest-support\3.15.9\kelvin-java-unittest-support-3.15.9.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;C:\Users\PC1\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\PC1\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\PC1\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\PC1\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\PC1\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Bratislava"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="SK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\PC1\AppData\Local\Temp\surefire11003142799367274609 2026-02-28T21-12-11_198-jvmRun1 surefire-20260228211211420_1tmp surefire_0-20260228211211420_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\PC1\IdeaProjects\JAVA I\projekt\target\test-classes;C:\Users\PC1\.m2\repository\org\openjfx\javafx-controls\23\javafx-controls-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-graphics\23\javafx-graphics-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-base\23\javafx-base-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-fxml\23\javafx-fxml-23.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\PC1\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PC1\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\PC1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\PC1\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\PC1\.m2\repository\cz\vsb\fei\kelvin-java-unittest-support\3.15.9\kelvin-java-unittest-support-3.15.9.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;C:\Users\PC1\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\PC1\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\PC1\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\PC1\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\PC1\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\PC1"/>
+    <property name="user.language" value="sk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\PC1\IdeaProjects\JAVA I\projekt\target\classes;C:\Users\PC1\.m2\repository\org\openjfx\javafx-controls\23\javafx-controls-23-win.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-graphics\23\javafx-graphics-23-win.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-base\23\javafx-base-23-win.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-fxml\23\javafx-fxml-23-win.jar"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\PC1\IdeaProjects\JAVA I\projekt"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\PC1\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.5\surefire-booter-3.2.5.jar;C:\Users\PC1\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.5\surefire-api-3.2.5.jar;C:\Users\PC1\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.5\surefire-logger-api-3.2.5.jar;C:\Users\PC1\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.5\surefire-shared-utils-3.2.5.jar;C:\Users\PC1\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.5\surefire-extensions-spi-3.2.5.jar;C:\Users\PC1\IdeaProjects\JAVA I\projekt\target\test-classes;C:\Users\PC1\.m2\repository\org\openjfx\javafx-controls\23\javafx-controls-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-graphics\23\javafx-graphics-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-base\23\javafx-base-23.jar;C:\Users\PC1\.m2\repository\org\openjfx\javafx-fxml\23\javafx-fxml-23.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\PC1\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PC1\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\PC1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\PC1\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;C:\Users\PC1\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\PC1\.m2\repository\cz\vsb\fei\kelvin-java-unittest-support\3.15.9\kelvin-java-unittest-support-3.15.9.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\PC1\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;C:\Users\PC1\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\PC1\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\PC1\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\PC1\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\PC1\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\PC1\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.2.5\surefire-junit-platform-3.2.5.jar;C:\Users\PC1\.m2\repository\org\apache\maven\surefire\common-java5\3.2.5\common-java5-3.2.5.jar;C:\Users\PC1\.m2\repository\org\junit\platform\junit-platform-launcher\1.11.0\junit-platform-launcher-1.11.0.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
+    <property name="user.name" value="PC1"/>
+    <property name="stdout.encoding" value="Cp1250"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="IBM852"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\PC1\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PC1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2025.3.3"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\Users\PC1\IdeaProjects\JAVA I\projekt"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\doxygen\bin;C:\Program Files\Git\cmd;C:\Users\PC1\AppData\Local\Microsoft\WindowsApps;C:\Users\PC1\.dotnet\tools;C:\Users\PC1\AppData\Local\Programs\Microsoft VS Code\bin;C:\ghcup\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.8+12-LTS-250"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\PC1\.m2\repository"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="test" classname="jez04.structure.test.ClassStructureTest" time="0.367">
+    <system-out><![CDATA[add class: lab.App
+add class: lab.Collisionable
+add class: lab.Config
+add class: lab.Difficulty
+add class: lab.DrawableSimulable
+add class: lab.DrawingThread
+add class: lab.Enemy
+add class: lab.GameController
+add class: lab.GameObject
+add class: lab.GameOverListener
+add class: lab.Grid
+add class: lab.IntroController$1
+add class: lab.IntroController
+add class: lab.LevelListener
+add class: lab.Levels
+add class: lab.LevelsController
+add class: lab.LivesListener
+add class: lab.Player$1
+add class: lab.Player
+add class: lab.Track$1
+add class: lab.Track
+21:12:12.356 [main] INFO  org.reflections.Reflections - Reflections took 31 ms to scan 1 urls, producing 7 keys and 24 values
+]]></system-out>
+  </testcase>
+</testsuite>

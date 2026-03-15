@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab.LevelsController" styleClass="intro-background">
+    <VBox alignment="CENTER" spacing="40">
+        <Label text="SELECT LEVEL" styleClass="game-title" style="-fx-font-size: 50px;" />
+
+        <HBox alignment="CENTER" spacing="20">
+            <Button text="1" onAction="#onLevel1" styleClass="start-button" />
+            <Button text="2" onAction="#onLevel2" styleClass="start-button" />
+            <Button text="3" onAction="#onLevel3" styleClass="start-button" />
+            <Button text="4" onAction="#onLevel4" styleClass="start-button" />
+            <Button text="5" onAction="#onLevel5" styleClass="start-button" />
+        </HBox>
+
+        <Button text="BACK" onAction="#onBack" styleClass="start-button" style="-fx-font-size: 20px;" />
+    </VBox>
+</StackPane>

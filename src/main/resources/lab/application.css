@@ -1,0 +1,44 @@
+.root {
+    -fx-font-family: 'Courier New', monospace;
+}
+
+.intro-background {
+    -fx-background-color: #000000;
+}
+
+.game-title {
+    -fx-font-size: 80px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00FF00;
+    -fx-effect: dropshadow(three-pass-box, #00FF00, 20, 0.5, 0, 0);
+}
+
+.game-subtitle {
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.start-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #00FF00;
+    -fx-border-width: 3px;
+    -fx-text-fill: #00FF00;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 30 10 30;
+    -fx-cursor: hand;
+}
+
+.start-button:hover {
+    -fx-background-color: #00FF00;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow(three-pass-box, #00FF00, 30, 0.5, 0, 0);
+}
+
+.selected-difficulty {
+    -fx-background-color: #ffd700;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 215, 0, 0.8), 10, 0, 0, 0);
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/23"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="lab.GameController">
+
+    <center>
+        <Canvas fx:id="canvas" width="800.0" height="400.0" BorderPane.alignment="CENTER"/>
+    </center>
+
+</BorderPane>

@@ -1,0 +1,47 @@
+12:58:04.127 [JavaFX Application Thread] DEBUG lab.App - Všetky FXML scény boli úspešne načítané.
+12:58:05.108 [JavaFX Application Thread] INFO  lab.App - Obtiažnosť bola zmenená na: HARD
+12:58:06.157 [JavaFX Application Thread] INFO  lab.App - Spúšťam level: 4
+12:58:06.158 [JavaFX Application Thread] DEBUG lab.Config - Pokúšam sa načítať konfiguráciu zo súboru: kidgrid.properties
+12:58:06.158 [JavaFX Application Thread] DEBUG lab.Config - Konfigurácia bola úspešne načítaná.
+12:58:06.158 [JavaFX Application Thread] DEBUG lab.Config - Pokúšam sa načítať konfiguráciu zo súboru: kidgrid.properties
+12:58:06.158 [JavaFX Application Thread] DEBUG lab.Config - Konfigurácia bola úspešne načítaná.
+12:58:06.168 [JavaFX Application Thread] INFO  lab.Track - Inicializácia mapy pre level 4 s obtiažnosťou HARD
+12:58:06.223 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [505.0, 95.0]
+12:58:06.240 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [365.0, 25.0]
+12:58:06.247 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [435.0, 165.0]
+12:58:06.255 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [225.0, 165.0]
+12:58:06.264 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [365.0, 95.0]
+12:58:06.272 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [505.0, 305.0]
+12:58:06.281 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [575.0, 305.0]
+12:58:06.289 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [365.0, 165.0]
+12:58:06.315 [JavaFX Application Thread] DEBUG lab.Track - Vytvorených 8 nepriateľov s rýchlosťou 180.0
+12:58:06.320 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 2
+12:58:06.702 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 1
+12:58:07.740 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 0
+12:58:08.935 [JavaFX Application Thread] INFO  lab.App - Obtiažnosť bola zmenená na: EASY
+12:58:09.674 [JavaFX Application Thread] INFO  lab.App - Spúšťam level: 1
+12:58:09.674 [JavaFX Application Thread] DEBUG lab.Config - Pokúšam sa načítať konfiguráciu zo súboru: kidgrid.properties
+12:58:09.674 [JavaFX Application Thread] DEBUG lab.Config - Konfigurácia bola úspešne načítaná.
+12:58:09.675 [JavaFX Application Thread] INFO  lab.Track - Inicializácia mapy pre level 1 s obtiažnosťou EASY
+12:58:09.682 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [505.0, 25.0]
+12:58:09.688 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [155.0, 25.0]
+12:58:09.694 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [435.0, 95.0]
+12:58:09.705 [JavaFX Application Thread] DEBUG lab.Track - Vytvorených 3 nepriateľov s rýchlosťou 80.0
+12:58:12.678 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 2
+12:58:12.761 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 1
+12:58:13.181 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 0
+13:07:15.943 [JavaFX Application Thread] DEBUG lab.App - Všetky FXML scény boli úspešne načítané.
+13:07:16.787 [JavaFX Application Thread] INFO  lab.App - Obtiažnosť bola zmenená na: EASY
+13:07:17.622 [JavaFX Application Thread] INFO  lab.App - Spúšťam level: 3
+13:07:17.623 [JavaFX Application Thread] DEBUG lab.Config - Pokúšam sa načítať konfiguráciu zo súboru: kidgrid.properties
+13:07:17.623 [JavaFX Application Thread] DEBUG lab.Config - Konfigurácia bola úspešne načítaná.
+13:07:17.624 [JavaFX Application Thread] DEBUG lab.Config - Pokúšam sa načítať konfiguráciu zo súboru: kidgrid.properties
+13:07:17.624 [JavaFX Application Thread] DEBUG lab.Config - Konfigurácia bola úspešne načítaná.
+13:07:17.624 [JavaFX Application Thread] INFO  lab.Track - Inicializácia mapy pre level 3 s obtiažnosťou EASY
+13:07:17.665 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [295.0, 25.0]
+13:07:17.675 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [155.0, 95.0]
+13:07:17.685 [JavaFX Application Thread] TRACE lab.Track - Nepriateľ bol vygenerovaný na súradniciach [155.0, 95.0]
+13:07:17.694 [JavaFX Application Thread] DEBUG lab.Track - Vytvorených 3 nepriateľov s rýchlosťou 80.0
+13:08:16.010 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 2
+13:08:19.082 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 1
+13:08:19.594 [JavaFX Application Thread] WARN  lab.Track - Hráč stratil život! Zostávajúce životy: 0
